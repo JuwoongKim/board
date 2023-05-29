@@ -23,6 +23,13 @@ spring:
   sql.init.mode: always
   h2.console.enabled: true
 
+#rest data를 설정, 에너테이션으로 지정한 것만 생성
+  data.rest:
+    base-path: /api
+    detection-strategy: annotated
+
+
+
 
 ---
 
