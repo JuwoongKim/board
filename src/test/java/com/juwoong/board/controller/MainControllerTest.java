@@ -1,6 +1,6 @@
 package com.juwoong.board.controller;
 
-import com.juwoong.board.config;
+
 
 import com.juwoong.board.config.SecurityConfig;
 import org.junit.jupiter.api.Test;
