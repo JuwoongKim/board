@@ -25,9 +25,12 @@ repositories {
 
 dependencies {
 
-
 	//  Thymeleaf 3.0
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+	// 스프링 시큐리티 (thymeleaf-extras)
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
 
 	// QueryDSL 설정
 	implementation "com.querydsl:querydsl-jpa:5.0.0:jakarta"
