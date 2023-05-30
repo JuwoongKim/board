@@ -28,6 +28,9 @@ spring:
     base-path: /api
     detection-strategy: annotated
 
+# 사용자 정의 로직
+  thymeleaf3.decoupled-logic: true
+
 
 
 
