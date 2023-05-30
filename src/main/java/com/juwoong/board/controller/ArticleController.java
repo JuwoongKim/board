@@ -3,7 +3,10 @@ package com.juwoong.board.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.PathVariable;
+=======
+>>>>>>> main
 import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
@@ -17,6 +20,7 @@ public class ArticleController {
 
         return "articles/index";
     }
+<<<<<<< HEAD
 
 
     @GetMapping("/{articleId}")
@@ -27,4 +31,6 @@ public class ArticleController {
         return "articles/detail";
     }
 
+=======
+>>>>>>> main
 }
