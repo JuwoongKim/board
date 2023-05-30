@@ -551,3 +551,7 @@ insert into article_comment (article_id, content, created_at, modified_at, creat
                                                                                                         (56, 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', '2021-11-18 01:32:48', '2021-06-06 01:59:25', 'Vittorio', 'Milty'),
                                                                                                         (19, 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '2021-05-07 23:57:29', '2021-04-03 21:55:11', 'Oliver', 'Graehme')
 ;
+
+insert into user_account (user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by) values
+    ('juwoong', '12345678', 'juwoong', 'wwong7247@mail.com', 'I am juwoong.', now(), 'juwoong', now(), 'jusoong')
+;
