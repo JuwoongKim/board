@@ -2,6 +2,7 @@ package com.juwoong.board.repository;
 
 import com.juwoong.board.domain.Article;
 import com.juwoong.board.domain.QArticle;
+import com.juwoong.board.repository.querydsl.ArticleRepositoryCustom;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -15,6 +16,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 @RepositoryRestResource
 public interface ArticleRepository extends
         JpaRepository<Article, Long>,
+        ArticleRepositoryCustom,
         QuerydslPredicateExecutor<Article>,
         QuerydslBinderCustomizer<QArticle> {
 
